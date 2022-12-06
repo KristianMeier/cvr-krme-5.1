@@ -7,14 +7,16 @@ export const UserHint = () => {
   const navigate = useNavigate()
   const { allCompanies } = useSearchContext()
 
+  const companyNames = allCompanies.map(({ companyName, index }) => (
+    <p key={companyName + index}>{companyName}</p>
+  ))
+
   return (
     <Account
       title='Beneath are the companies in the database'
       onClick={() => navigate(LANDING_PAGE_PATH)}
       btnText='To Frontpage'
-      content={allCompanies.map(({ companyName, index }) => (
-        <p key={companyName + index}>{companyName}</p>
-      ))}
+      content={companyNames}
     />
   )
 }

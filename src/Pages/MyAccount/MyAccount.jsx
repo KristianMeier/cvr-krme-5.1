@@ -26,9 +26,9 @@ export const MyAccount = () => {
   return (
     <>
       <Account
-        title={`Welcome Mr./Mrs. ${
+        title={`Welcome ${
           capitalizedLoginName ? capitalizedLoginName : 'anonymous'
-        }`}
+        } `}
         onClick={() => {
           logOut()
           navigate(LANDING_PAGE_PATH)
