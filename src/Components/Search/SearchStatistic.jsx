@@ -8,8 +8,8 @@ export const SearchStatistic = () => {
 
   return (
     <>
-      <h3 className='stats-heading'>Distribution of companies</h3>
       <div className='search-statistics'>
+        <h3 className='stats-heading'>Distribution of companies</h3>
         {statsArray.map(([key, value], index) => {
           const modifiedKey = `No. of ${key.slice(0, -1)}ies`
 

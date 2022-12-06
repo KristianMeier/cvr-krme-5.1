@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router'
 import { AddEmployees } from '../../Components/AddEmployess/AddEmployees'
 import { Account } from '../../Components/Other/Account'
-import { ModalTwo } from '../../Components/Other/ModalTwo'
+import { ModalTwo } from '../../Components/Other/Modal'
 import {
   AUTH_LOCAL_STORAGE_KEY,
   LANDING_PAGE_PATH,

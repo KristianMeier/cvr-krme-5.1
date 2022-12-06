@@ -57,23 +57,6 @@
     }
   }
 
-  .search-pagination {
-    display: flex;
-    justify-content: center;
-
-    .list-container {
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-      text-align: center;
-    }
-
-    .pagination-numbers {
-      @include button($noBorder, $noPadding, $fontSizeLargeButton);
-      font-weight: $font-weight-bold;
-    }
-  }
-
   .stats-heading {
     text-align: center;
     margin-bottom: 1rem;
@@ -84,6 +67,7 @@
     border: $border;
     width: 100%;
     padding: 1.5rem;
+    margin: 2rem 0;
 
     .stats-container {
       margin-bottom: 1.25rem;

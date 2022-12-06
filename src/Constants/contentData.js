@@ -138,7 +138,7 @@ export const contentData = {
       ],
     },
     {
-      id: 11,
+      id: 10,
       heading: 'Capital',
       paragraphs: [
         'Capital is a broad term that can describe anything that confers value or benefit to its owners, such as a factory and its machinery, intellectual property like patents, or the financial assets of a business or an individual.',
@@ -147,7 +147,7 @@ export const contentData = {
       ],
     },
     {
-      id: 12,
+      id: 11,
       heading: 'Collateral',
       paragraphs: [
         'Collateral in the financial world is a valuable asset that a borrower pledges as security for a loan.',

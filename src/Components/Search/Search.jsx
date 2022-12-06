@@ -25,9 +25,9 @@ export const Search = () => {
   if (isCompaniesFound)
     return (
       <div>
+        <SearchStatistic />
         {companies.map((company) => {
           const convertedData = convertSearchData({ ...company })
-
           return (
             <SearchCompany
               key={company.id}
@@ -36,7 +36,6 @@ export const Search = () => {
             />
           )
         })}
-        <SearchStatistic />
       </div>
     )
 
