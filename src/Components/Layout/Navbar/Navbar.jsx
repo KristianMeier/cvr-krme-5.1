@@ -1,12 +1,12 @@
 import { useRef, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { LANDING_PAGE_PATH } from '../../../Constants/Constants'
-import { useMiscContext } from '../../../Context/MiscContext'
+import { useNavbarContext } from '../../../Context/NavbarContext'
 import { TextLink } from '../../Other/TextLink'
 import { NavbarLinks } from './NavbarLinks'
 
 export const Navbar = () => {
-  const { showLinks, toggleLinks } = useMiscContext()
+  const { showLinks, toggleLinks } = useNavbarContext()
   const linksContainerRef = useRef(null)
   const linksRef = useRef(null)
 

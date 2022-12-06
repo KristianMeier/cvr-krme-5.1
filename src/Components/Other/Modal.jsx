@@ -1,4 +1,4 @@
-export const ModalTwo = ({
+export const Modal = ({
   title,
   subtitle,
   listOne,

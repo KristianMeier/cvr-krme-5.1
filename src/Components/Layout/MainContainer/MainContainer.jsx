@@ -1,8 +1,8 @@
 import cc from 'classcat'
-import { useMiscContext } from '../../../Context/MiscContext'
+import { useNavbarContext } from '../../../Context/NavbarContext'
 
 export const MainContainer = ({ children }) => {
-  const { showLinks } = useMiscContext()
+  const { showLinks } = useNavbarContext()
 
   return (
     <div
