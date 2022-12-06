@@ -46,7 +46,6 @@ export const contentData = {
 
   virkopediaData: [
     {
-      id: 0,
       heading: 'A-tax',
       paragraphs: [
         'A tax is a tax you pay on your A income. An A-income typically includes salary income, pension, daily allowance, SU, capital income, interest income, etc. How much you pay in A-tax depends on your deduction percentage, which is determined by your annual income.',
@@ -54,9 +53,7 @@ export const contentData = {
         'The term "deductible percentage" refers to the percentage of an income that is deducted for tax. In Denmark, the tax rate in 2018 varies from 37% to 53% depending on whether you pay top or bottom tax and whether you are a member of the national church and thus pay church tax. The deduction percentage is noted on ones tax card.',
       ],
     },
-
     {
-      id: 1,
       heading: 'Acquisition',
       paragraphs: [
         "An acquisition is when one company purchases most or all of another company's shares to gain control of that company.",
@@ -65,7 +62,6 @@ export const contentData = {
       ],
     },
     {
-      id: 2,
       heading: 'Advance',
       paragraphs: [
         'Profit is the difference between the selling price and the purchase price, which describes the profit a company makes from the sale of a product or service. Profit, also called gross profit, is another word for profit or gross profit.',
@@ -74,7 +70,6 @@ export const contentData = {
       ],
     },
     {
-      id: 3,
       heading: 'AM-contribution',
       paragraphs: [
         'AM contribution is a statutory tax which consists of 8% of your salary or 8% of your profit in the company. All employees and self-employed persons must pay AM contributions regardless of income..',
@@ -83,7 +78,6 @@ export const contentData = {
       ],
     },
     {
-      id: 4,
       heading: 'Annuity',
       paragraphs: [
         'The term "annuity" refers to an insurance contract issued and distributed by financial institutions with the intention of paying out invested funds in a fixed income stream in the future.',
@@ -92,7 +86,6 @@ export const contentData = {
       ],
     },
     {
-      id: 5,
       heading: 'Asset',
       paragraphs: [
         'An asset is a resource with economic value that an individual, corporation, or country owns or controls with the expectation that it will provide a future benefit.',
@@ -101,7 +94,6 @@ export const contentData = {
       ],
     },
     {
-      id: 6,
       heading: 'ATP-contribution',
       paragraphs: [
         'ATP contribution (labor market supplementary pension) is a statutory pension scheme in addition to the national pension. Both employee and company pay into the ATP pension. The ATP contribution must be paid via the employees salary.',
@@ -109,9 +101,7 @@ export const contentData = {
         'The rates for the ATP contribution are calculated on the basis of the employees working hours in the pay period. The contribution rates depend on how the employee is paid. A distinction is made between monthly paid, 14-day paid, weekly paid or casual workers.',
       ],
     },
-
     {
-      id: 7,
       heading: 'Beta',
       paragraphs: [
         'Beta (β) is a measure of the volatility—or systematic risk—of a security or portfolio compared to the market as a whole (usually the S&P 500). Stocks with betas higher than 1.0 can be interpreted as more volatile than the S&P 500.',
@@ -120,7 +110,6 @@ export const contentData = {
       ],
     },
     {
-      id: 8,
       heading: 'Bond',
       paragraphs: [
         'A bond is a fixed-income instrument that represents a loan made by an investor to a borrower (typically corporate or governmental). A bond could be thought of as an I.O.U. between the lender and borrower that includes the details of the loan and its payments.',
@@ -129,7 +118,6 @@ export const contentData = {
       ],
     },
     {
-      id: 9,
       heading: 'Budget',
       paragraphs: [
         'A budget is an estimation of revenue and expenses over a specified future period of time and is usually compiled and re-evaluated on a periodic basis.',
@@ -138,7 +126,6 @@ export const contentData = {
       ],
     },
     {
-      id: 10,
       heading: 'Capital',
       paragraphs: [
         'Capital is a broad term that can describe anything that confers value or benefit to its owners, such as a factory and its machinery, intellectual property like patents, or the financial assets of a business or an individual.',
@@ -147,7 +134,6 @@ export const contentData = {
       ],
     },
     {
-      id: 11,
       heading: 'Collateral',
       paragraphs: [
         'Collateral in the financial world is a valuable asset that a borrower pledges as security for a loan.',
@@ -156,7 +142,6 @@ export const contentData = {
       ],
     },
   ],
-
   searchData: {
     companyinfoTitles: [
       {

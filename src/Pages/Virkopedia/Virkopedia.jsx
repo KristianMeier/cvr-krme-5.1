@@ -14,12 +14,12 @@ export const Virkopedia = () => {
       <h2>Virkopedia</h2>
       <div className='virkopedia-container'>
         <div className='btn-container'>
-          {allArticles.map(({ heading, id }, index) => (
+          {allArticles.map(({ heading }, index) => (
             <VirkopediaTab
               key={heading + index}
               setActiveButtonIndex={setActiveButtonIndex}
               heading={heading}
-              id={id}
+              index={index}
               activeButtonIndex={activeButtonIndex}
             />
           ))}

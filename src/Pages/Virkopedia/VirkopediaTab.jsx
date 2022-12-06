@@ -2,17 +2,17 @@ import cc from 'classcat'
 
 export const VirkopediaTab = ({
   heading,
-  id,
+  index,
   activeButtonIndex,
   setActiveButtonIndex,
 }) => {
   return (
     <button
-      onClick={() => setActiveButtonIndex(id)}
+      onClick={() => setActiveButtonIndex(index)}
       className={cc([
         'article-btn',
         {
-          'active-btn': id === activeButtonIndex,
+          'active-btn': index === activeButtonIndex,
         },
       ])}
     >
