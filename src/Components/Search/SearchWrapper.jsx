@@ -15,6 +15,7 @@ export const SearchWrapper = () => {
           value={searchField}
           placeholder='Search for the company here...'
           onChange={(e) => setSearchField(e.target.value)}
+          autoFocus
         />
         <Search />
       </div>

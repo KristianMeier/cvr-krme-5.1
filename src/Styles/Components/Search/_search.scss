@@ -12,7 +12,7 @@
 
   .search-no-results {
     .user-hint-link {
-      @include button(none);
+      @include link;
       font-weight: $font-weight-bold;
     }
 

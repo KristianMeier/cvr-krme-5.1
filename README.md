@@ -8,7 +8,7 @@
 
 ## Project Scope
 
-`I built some of the pages/features from a site i use everyday: https://cvr.dk. The project is built the technologies, that I should be familiar with for my internship to work on https://www.billy.dk. Please refere to the folder /src/Mocks for the pages i have mocked`.
+`I built some of the pages/features from a site i use everyday: https://cvr.dk. The project is built the technologies, that I should be familiar with for my internship to work on https://www.billy.dk. Please refere to the folder /src/Mocks, to find the pages from https://cvr.dk, that I have mocked.`
 
 ### How have i been told to distribution my internship-preparation?
 
@@ -20,7 +20,7 @@
 - `Basic React and ES6 Syntax`
 - `Basic SCSS (Variables and Mixins)`
 - `Responsive design with Flexbox`
-- `Authentication and Protected content.`
+- `Authentication and Protected content`
 
 ### What did I **Not** intent to pratice in this project?
 

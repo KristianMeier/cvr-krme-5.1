@@ -1,6 +1,13 @@
 import cc from 'classcat'
 
-export const TextInput = ({ placeholder, value, onChange, type, search }) => (
+export const TextInput = ({
+  placeholder,
+  value,
+  onChange,
+  type,
+  search,
+  autoFocus,
+}) => (
   <input
     className={cc([
       'text-input',
@@ -12,5 +19,6 @@ export const TextInput = ({ placeholder, value, onChange, type, search }) => (
     value={value}
     onChange={onChange}
     type={type}
+    autoFocus={autoFocus}
   />
 )

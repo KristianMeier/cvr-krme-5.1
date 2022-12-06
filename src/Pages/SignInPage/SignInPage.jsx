@@ -35,6 +35,7 @@ export const SignInPage = () => {
             value={name}
             type='text'
             onChange={(e) => setName(e.target.value)}
+            autoFocus
           />
           <TextInput
             placeholder='Insert password...'

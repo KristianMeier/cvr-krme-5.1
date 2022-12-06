@@ -56,7 +56,7 @@ export const AddEmployees = () => {
         className='swap-btn'
         onClick={() => setVanillaFormIsShown(!vanillaFormIsShown)}
       >
-        {vanillaFormIsShown ? 'Swap to Formik Form' : 'Back to Normal Form'}
+        {vanillaFormIsShown ? 'Swap to Formik Form' : 'Back to Vanilla Form'}
       </button>
       <div className='container'>
         {vanillaFormIsShown ? (
