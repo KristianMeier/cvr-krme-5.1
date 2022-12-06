@@ -5,6 +5,13 @@
     width: 100%;
   }
 
+  .back-to-search {
+    @include link;
+    align-self: flex-start;
+    font-size: 0.75rem;
+    font-weight: $font-weight-light;
+  }
+
   .company-table {
     line-height: 1.5rem;
     border: $border;

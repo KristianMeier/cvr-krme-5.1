@@ -14,7 +14,7 @@ export const VIRKOPEDIA_PATH = '/virkopedia'
 export const SIGN_IN_PAGE_PATH = '/signinpage'
 export const NO_ACCESS_PATH = '/noaccess'
 export const NO_ROUTE_PATH = '/:routeParams'
-export const COMPANY_PATH = '/company/:id'
+export const COMPANY_PATH = '/company/:routeParams'
 export const USER_HINT_PATH = '/userhint'
 
 // Add Employees

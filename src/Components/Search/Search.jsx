@@ -26,12 +26,12 @@ export const Search = () => {
     return (
       <div>
         <SearchStatistic />
-        {companies.map((company) => {
+        {companies.map((company, index) => {
           const convertedData = convertSearchData({ ...company })
           return (
             <SearchCompany
-              key={company.id}
-              id={company.id}
+              key={index}
+              index={index}
               convertedData={convertedData}
             />
           )

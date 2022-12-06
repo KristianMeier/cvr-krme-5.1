@@ -179,7 +179,6 @@ export const contentData = {
     ],
     companies: [
       {
-        id: 0,
         cvrNumber: '39965003',
         companyName: 'Meneto Software ApS',
         address: 'Vesterbrogade 1C, 6.',
@@ -190,7 +189,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 1,
         cvrNumber: '33239106',
         companyName: 'BILLY ApS',
         address: 'Vesterbrogade 1C, 6.',
@@ -201,7 +199,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 2,
         cvrNumber: '37628409',
         companyName: 'Salary.dk ApS',
         address: 'Vesterbrogade 1E, 6.',
@@ -212,7 +209,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 3,
         cvrNumber: '33966369',
         companyName: 'AGERAS A/S',
         address: 'Vesterbrogade 1E, 6.',
@@ -223,7 +219,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 4,
         cvrNumber: '37085960',
         companyName: 'Zenfit ApS',
         address: 'Jernbanegade 4, 3. tv',
@@ -234,7 +229,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 5,
         cvrNumber: '38168495',
         companyName: 'Lenus eHealth ApS',
         address: 'Rued Langgaards Vej 8',
@@ -245,7 +239,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 7,
         cvrNumber: '25050053',
         companyName: 'DSB',
         address: 'Telegade 2, Høje Taastr.',
@@ -256,7 +249,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 8,
         cvrNumber: '36730099',
         companyName: 'SumUp MG ApS',
         address: 'Ewaldsgade 3, 3.',
@@ -267,7 +259,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 9,
         cvrNumber: '41119292',
         companyName: 'Ageras Danmark ApS',
         address: 'Vesterbrogade 1E, 6.',
@@ -278,7 +269,6 @@ export const contentData = {
         status: 'Normal',
       },
       {
-        id: 10,
         cvrNumber: '42328944',
         companyName: 'Ageras Finance ApS',
         address: 'Annexstræde 6, st.',

@@ -3,7 +3,7 @@ import { TextInput } from '../Other/TextInput'
 import { Search } from './Search'
 
 export const SearchWrapper = () => {
-  const { setSearchField } = useSearchContext()
+  const { searchField, setSearchField } = useSearchContext()
 
   return (
     <div className='search'>
@@ -12,6 +12,7 @@ export const SearchWrapper = () => {
         <TextInput
           search
           type='search'
+          value={searchField}
           placeholder='Search for the company here...'
           onChange={(e) => setSearchField(e.target.value)}
         />
