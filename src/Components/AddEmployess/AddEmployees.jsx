@@ -17,7 +17,7 @@ export const AddEmployees = () => {
   const [name, setName] = useState('')
   const [title, setTitle] = useState('')
   const [employees, setEmployees] = useState(JSON.parse(savedEmployees))
-  const [showNormalForm, setShowNormalForm] = useState(true)
+  const [vanillaFormIsShown, setVanillaFormIsShown] = useState(true)
 
   const handleVanillaFormSubmit = (e) => {
     e.preventDefault()
@@ -54,12 +54,12 @@ export const AddEmployees = () => {
       <h2>Grant employees access to www.cvr.dk</h2>
       <button
         className='swap-btn'
-        onClick={() => setShowNormalForm(!showNormalForm)}
+        onClick={() => setVanillaFormIsShown(!vanillaFormIsShown)}
       >
-        {showNormalForm ? 'Swap to Formik Form' : 'Back to Normal Form'}
+        {vanillaFormIsShown ? 'Swap to Formik Form' : 'Back to Normal Form'}
       </button>
       <div className='container'>
-        {showNormalForm ? (
+        {vanillaFormIsShown ? (
           <AddEmployeesVanillaForm
             handleVanillaFormSubmit={handleVanillaFormSubmit}
             name={name}
