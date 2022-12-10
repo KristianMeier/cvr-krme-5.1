@@ -5,7 +5,7 @@ export const MainContainer = ({ children }) => {
   const { showLinks } = useNavbarContext()
 
   return (
-    <div
+    <main
       className={cc([
         'main-container',
         {
@@ -14,6 +14,6 @@ export const MainContainer = ({ children }) => {
       ])}
     >
       {children}
-    </div>
+    </main>
   )
 }
