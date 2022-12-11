@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router'
 import { AddEmployees } from '../../Components/AddEmployess/AddEmployees'
-import { Account } from '../../Components/Other/Account'
+import { SmallContainer } from '../../Components/Other/SmallContainer'
 import { Modal } from '../../Components/Other/Modal'
 import {
   AUTH_LOCAL_STORAGE_KEY,
@@ -26,7 +26,7 @@ export const MyAccount = () => {
 
   return (
     <>
-      <Account
+      <SmallContainer
         title={`Welcome ${
           capitalizedLoginName ? capitalizedLoginName : 'Anonymous'
         } `}
