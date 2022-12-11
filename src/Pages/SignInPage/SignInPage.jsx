@@ -14,12 +14,14 @@ export const SignInPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     const localStorageId = new Date().getTime().toString()
-    const user = {
+
+    const userObject = {
       localStorageId,
       name,
       password,
     }
-    logIn(user)
+
+    logIn(userObject)
     navigate(MY_ACCOUNT_PATH)
     setName('')
     setPassword('')
