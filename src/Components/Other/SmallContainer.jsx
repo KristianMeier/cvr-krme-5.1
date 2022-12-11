@@ -1,5 +1,5 @@
-export const Account = ({ onClick, title, btnText, content }) => (
-  <div className='my-account'>
+export const SmallContainer = ({ onClick, title, btnText, content }) => (
+  <div className='small-container'>
     <h2> {title} </h2>
     <button className='action-btn' onClick={onClick}>
       {btnText}

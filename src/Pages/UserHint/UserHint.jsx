@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Account } from '../../Components/Other/Account'
+import { SmallContainer } from '../../Components/Other/SmallContainer'
 import { LANDING_PAGE_PATH } from '../../Constants/Constants'
 import { useSearchContext } from '../../Context/SearchContext'
 
@@ -12,7 +12,7 @@ export const UserHint = () => {
   ))
 
   return (
-    <Account
+    <SmallContainer
       title='Beneath are the companies in the database'
       onClick={() => navigate(LANDING_PAGE_PATH)}
       btnText='To Frontpage'

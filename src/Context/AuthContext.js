@@ -18,17 +18,18 @@ export const AuthContextProvider = ({ children }) => {
     setLoginValue(LOG_OUT_LOCAL_STORAGE_VALUE)
   }
 
-  const logIn = (object) => {
-    const stringifiedObject = JSON.stringify(object)
-    setLoginValue(stringifiedObject)
-    localStorage.setItem(AUTH_LOCAL_STORAGE_KEY, stringifiedObject)
+  const logIn = (userObject) => {
+    const userString = JSON.stringify(userObject)
+    setLoginValue(userString)
+    localStorage.setItem(AUTH_LOCAL_STORAGE_KEY, userString)
   }
+
   return (
     <AuthContext.Provider
       value={{
         loginValue,
-        logIn,
         logOut,
+        logIn,
       }}
     >
       {children}
